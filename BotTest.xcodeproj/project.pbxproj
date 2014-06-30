@@ -20,7 +20,6 @@
 		7F4F4BCC1961EBD100677874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4F4BAB1961EBD100677874 /* Foundation.framework */; };
 		7F4F4BCD1961EBD100677874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4F4BAF1961EBD100677874 /* UIKit.framework */; };
 		7F4F4BD51961EBD100677874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F4BD31961EBD100677874 /* InfoPlist.strings */; };
-		7F4F4BD71961EBD100677874 /* BotTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F4BD61961EBD100677874 /* BotTestTests.m */; };
 		7F4F4BE11961EC8900677874 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F4BE01961EC8900677874 /* AppDelegateTests.m */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		7F4F4BCA1961EBD100677874 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7F4F4BD21961EBD100677874 /* BotTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BotTestTests-Info.plist"; sourceTree = "<group>"; };
 		7F4F4BD41961EBD100677874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7F4F4BD61961EBD100677874 /* BotTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotTestTests.m; sourceTree = "<group>"; };
 		7F4F4BE01961EC8900677874 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				7F4F4BE01961EC8900677874 /* AppDelegateTests.m */,
-				7F4F4BD61961EBD100677874 /* BotTestTests.m */,
 				7F4F4BD11961EBD100677874 /* Supporting Files */,
 			);
 			path = BotTestTests;
@@ -266,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4F4BE11961EC8900677874 /* AppDelegateTests.m in Sources */,
-				7F4F4BD71961EBD100677874 /* BotTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
